@@ -3,13 +3,45 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
+    "dev_next": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node server.js",
+    "storybook": "start-storybook",
+    "updatePost": "processmd articles/**/*.md --stdout --outputDir articles/json > summary.json"
   },
   "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
+    "markdown-it": "^10.0.0",
     "next": "9.1.4",
+    "path-match": "^1.2.4",
     "react": "16.12.0",
     "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@storybook/addon-actions": "^5.2.6",
+    "@storybook/addon-docs": "^5.2.6",
+    "@storybook/addon-info": "^5.2.6",
+    "@storybook/addon-storysource": "^5.2.6",
+    "@storybook/addons": "^5.2.6",
+    "@storybook/react": "^5.2.6",
+    "@storybook/source-loader": "^5.2.6",
+    "@types/jest": "^24.0.23",
+    "@types/markdown-it": "^0.0.9",
+    "@types/next": "^9.0.0",
+    "@types/node": "^12.12.9",
+    "@types/prop-types": "^15.7.3",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "@types/storybook__react": "^4.0.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "jest": "^24.9.0",
+    "processmd": "^4.5.0",
+    "react-docgen-typescript-loader": "^3.4.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
   }
 }

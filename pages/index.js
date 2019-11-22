@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
+import Footer from '../components/Footer'
+import ArticlesList from '../containers/ArticlesList'
 
 const Home = () => (
   <div>
@@ -8,6 +10,9 @@ const Home = () => (
       <title>Home</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
+    <header>
+      ヘッダーが入ります
+    </header>
 
     <Nav />
 
@@ -17,7 +22,7 @@ const Home = () => (
         To get started, edit <code>pages/index.js</code> and save to reload.
       </p>
 
-      <div className="row">
+      {/* <div className="row">
         <a href="https://nextjs.org/docs" className="card">
           <h3>Documentation &rarr;</h3>
           <p>Learn more about Next.js in the documentation.</p>
@@ -33,9 +38,10 @@ const Home = () => (
           <h3>Examples &rarr;</h3>
           <p>Find other example boilerplates on the Next.js GitHub.</p>
         </a>
-      </div>
+      </div> */}
     </div>
-
+    <ArticlesList/>
+    <Footer/>
     <style jsx>{`
       .hero {
         width: 100%;
