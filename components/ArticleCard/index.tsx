@@ -17,7 +17,7 @@ class ArticleCard extends React.Component<Props, State> {
           <div> 画像が入ります。</div>
           <div>
             <p className="post_title">{this.props.article.title}</p>
-            <span>Public at: </span>
+            <span>Public at:{this.props.article.created_at.slice(0,10)} </span>
           </div>
         </article>
         <style jsx>{`

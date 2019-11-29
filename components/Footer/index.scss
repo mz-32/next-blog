@@ -1,0 +1,37 @@
+@import "../../styles/valiables.scss";
+
+// .root {
+//   border-bottom: solid 1px #ff0000;
+//   display: flex;
+//   background: $color_orenge500;
+//   a {
+//     text-decoration: none;
+//   }
+// }
+.header__inner {
+  margin: 1rem;
+  .logo {
+    color: $color_white;
+    font-size: $font-size-xl;
+    font-family: $font-family-round;
+    font-weight: $font-weight-bold;
+  }
+}
+
+.root {
+  position: absolute;
+  bottom: 0;
+  min-width: 100%;
+  // border: solid 1px #ff0000;
+  background: $color_orenge500;
+  display: flex;
+  padding: 0.2rem 0;
+}
+.copyright {
+  text-align: center;
+  width: 100%;
+  color: $color_white;
+}
+.post_title{
+  color: $color_white;
+}

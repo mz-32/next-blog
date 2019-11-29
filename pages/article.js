@@ -1,9 +1,9 @@
 import React from 'react';
-
-import Head from 'next/head';
-import Nav from '../components/nav';
+import Header from '../components/Header'
 import Footer from '../components/Footer';
+import BasicHead from '../components/BasicHead'
 import ArticlesList from '../containers/ArticlesList';
+import Article from '../containers/Article';
 
 export default class extends React.Component {
   static async getInitialProps ({ query: { article } }) {
@@ -13,18 +13,12 @@ export default class extends React.Component {
   render () {
     return (
       <div>
-      <Head>
-        <title>Home</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <header>
-        ヘッダーが入ります
-      </header>
+        <BasicHead title={this.props.article.title+"|mz32's blog"}/>
+      <Header/>
   
-      <Nav />
-      <div>
-        <h1>{this.props.article.title}</h1>
-        <div dangerouslySetInnerHTML={{__html:this.props.article.bodyHtml}}/>
+      {/* <Nav /> */}
+      <div className="article">
+        <Article article={this.props.article}/>
       </div>
       <ArticlesList/>
       <Footer/>
@@ -72,6 +66,9 @@ export default class extends React.Component {
           padding: 12px 0 0;
           font-size: 13px;
           color: #333;
+        }
+        .article {
+          margin: 1rem 2rem;
         }
       `}</style>
     </div>

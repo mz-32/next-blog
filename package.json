@@ -8,12 +8,19 @@
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
     "storybook": "start-storybook",
-    "updatePost": "processmd articles/**/*.md --stdout --outputDir articles/json > summary.json"
+    "updatePost": "processmd articles/**/*.md --stdout --outputDir articles/json > summary.json",
+    "cp_assets": "cpx -C node_modules/katex/dist/katex.min.css public/static/css/ && cpx -C 'node_modules/katex/dist/fonts/*' public/static/css/fonts && cpx -C 'node_modules/highlight.js/styles/github.css' public/static/css"
   },
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
     "@zeit/next-typescript": "^1.1.1",
+    "highlight.js": "^9.16.2",
+    "katex": "^0.11.1",
     "markdown-it": "^10.0.0",
     "next": "9.1.4",
+    "next-optimized-images": "^2.5.4",
+    "node-sass": "^4.13.0",
     "path-match": "^1.2.4",
     "react": "16.12.0",
     "react-dom": "16.12.0"
@@ -38,6 +45,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
+    "cpx": "^1.5.0",
     "jest": "^24.9.0",
     "processmd": "^4.5.0",
     "react-docgen-typescript-loader": "^3.4.0",

@@ -1,0 +1,233 @@
+
+/***********************
+      base color
+***********************/
+// Red
+$color_red900: #b71c1c;
+$color_red800: #c62828;
+$color_red700: #d32f2f;
+$color_red600: #e53935;
+$color_red500: #f44336;
+$color_red400: #ef5350;
+$color_red300: #e57373;
+$color_red200: #ef9a9a;
+$color_red100: #ffcdd2;
+$color_red050: #ffebee;
+
+// Pink
+$color_pink900: #880e4f;
+$color_pink800: #ad1457;
+$color_pink700: #c2185b;
+$color_pink600: #d81b60;
+$color_pink500: #e91e63;
+$color_pink400: #ec407a;
+$color_pink300: #f06292;
+$color_pink200: #f48fb1;
+$color_pink100: #f8bbd0;
+$color_pink050: #fce4ec;
+
+// Purple
+$color_puple900: #4a148c;
+$color_puple800: #6a1b9a;
+$color_puple700: #7b1fa2;
+$color_puple600: #8e24aa;
+$color_puple500: #9c27b0;
+$color_puple400: #ab47bc;
+$color_puple300: #ba68c8;
+$color_puple200: #ce93d8;
+$color_puple100: #e1bee7;
+$color_puple050: #f3e5f5;
+
+// Deep Purple
+$color_deeppuple900: #311b92;
+$color_deeppuple800: #4527a0;
+$color_deeppuple700: #512da8;
+$color_deeppuple600: #5e35b1;
+$color_deeppuple500: #673ab7;
+$color_deeppuple400: #7e57c2;
+$color_deeppuple300: #9575cd;
+$color_deeppuple200: #b39ddb;
+$color_deeppuple100: #d1c4e9;
+$color_deeppuple050: #ede7f6;
+
+// indigo
+$color_indigo900: #1a237e;
+$color_indigo800: #283593;
+$color_indigo700: #303f9f;
+$color_indigo600: #3949ab;
+$color_indigo500: #3f51b5;
+$color_indigo400: #5c6bc0;
+$color_indigo300: #7986cb;
+$color_indigo200: #9fa8da;
+$color_indigo100: #c5cae9;
+$color_indigo050: #e8eaf6;
+
+// blue
+$color_blue900: #0d47a1;
+$color_blue800: #1565c0;
+$color_blue700: #1976d2;
+$color_blue600: #1e88e5;
+$color_blue500: #2196f3;
+$color_blue400: #42a5f5;
+$color_blue300: #64b5f6;
+$color_blue200: #90caf9;
+$color_blue100: #bbdefb;
+$color_blue050: #e3f2fd;
+
+// Light Blue
+$color_lightblue900: #01579b;
+$color_lightblue800: #0277bd;
+$color_lightblue700: #0288d1;
+$color_lightblue600: #039be5;
+$color_lightblue500: #03a9f4;
+$color_lightblue400: #29b6f6;
+$color_lightblue300: #4fc3f7;
+$color_lightblue200: #81d4fa;
+$color_lightblue100: #b3e5fc;
+$color_lightblue050: #e1f5fe;
+
+// Cyan
+$color_cyan900: #006064;
+$color_cyan900: #00838f;
+$color_cyan900: #0097a7;
+$color_cyan900: #00acc1;
+$color_cyan900: #00bcd4;
+$color_cyan900: #26c6da;
+$color_cyan900: #4dd0e1;
+$color_cyan900: #80deea;
+$color_cyan900: #b2ebf2;
+$color_cyan900: #e0f7fa;
+
+
+// Teal
+$color_teal900: #004d40;
+$color_teal800: #00695c;
+$color_teal700: #00796b;
+$color_teal600: #00897b;
+$color_teal500: #009688;
+$color_teal400: #26a69a;
+$color_teal300: #4db6ac;
+$color_teal200: #80cbc4;
+$color_teal100: #b2dfdb;
+$color_teal050: #e0f2f1;
+
+// Green
+$color_green900: #1b5e20;
+$color_green800: #2e7d32;
+$color_green700: #388e3c;
+$color_green600: #43a047;
+$color_green500: #4caf50;
+$color_green400: #66bb6a;
+$color_green300: #81c784;
+$color_green200: #a5d6a7;
+$color_green100: #c8e6c9;
+$color_green050: #e8f5e9;
+
+// Light Green
+$color_lightgreen900: #33691e;
+$color_lightgreen800: #558b2f;
+$color_lightgreen700: #689f38;
+$color_lightgreen600: #7cb342;
+$color_lightgreen500: #8bc34a;
+$color_lightgreen400: #9ccc65;
+$color_lightgreen300: #aed581;
+$color_lightgreen200: #c5e1a5;
+$color_lightgreen100: #dcedc8;
+$color_lightgreen050: #f1f8e9;
+
+// Lime
+$color_lime900: #827717;
+$color_lime800: #9e9d24;
+$color_lime700: #afb42b;
+$color_lime600: #c0ca33;
+$color_lime500: #cddc39;
+$color_lime400: #d4e157;
+$color_lime300: #dce775;
+$color_lime200: #e6ee9c;
+$color_lime100: #f0f4c3;
+$color_lime050: #f9fbe7;
+
+// Yellow
+$color_yellow900: #f9fbe7;
+$color_yellow800: #f9a825;
+$color_yellow700: #fbc02d;
+$color_yellow600: #fdd835;
+$color_yellow500: #ffeb3b;
+$color_yellow400: #ffee58;
+$color_yellow300: #fff176;
+$color_yellow200: #fff59d;
+$color_yellow100: #fff9c4;
+$color_yellow050: #fffde7;
+
+// Amber
+$color_amber900: #ff6f00;
+$color_amber800: #ff8f00;
+$color_amber700: #ffa000;
+$color_amber600: #ffb300;
+$color_amber500: #ffc107;
+$color_amber400: #ffca28;
+$color_amber300: #ffd54f;
+$color_amber200: #ffe082;
+$color_amber100: #ffecb3;
+$color_amber050: #fff8e1;
+
+// Orange
+$color_orenge900: #e65100;
+$color_orenge800: #ef6c00;
+$color_orenge700: #f57c00;
+$color_orenge600: #fb8c00;
+$color_orenge500: #ff9800;
+$color_orenge400: #ffa726;
+$color_orenge300: #ffb74d;
+$color_orenge200: #ffcc80;
+$color_orenge100: #ffe0b2;
+$color_orenge050: #fff3e0;
+
+// Deep Orange
+$color_deeporange900: #bf360c;
+$color_deeporange800: #d84315;
+$color_deeporange700: #e64a19;
+$color_deeporange600: #f4511e;
+$color_deeporange500: #ff5722;
+$color_deeporange400: #ff7043;
+$color_deeporange300: #ff8a65;
+$color_deeporange200: #ffab91;
+$color_deeporange100: #ffccbc;
+$color_deeporange050: #fbe9e7;
+
+// Brown
+$color_brown900: #3e2723;
+$color_brown800: #4e342e;
+$color_brown700: #5d4037;
+$color_brown600: #6d4c41;
+$color_brown500: #795548;
+$color_brown400: #8d6e63;
+$color_brown300: #a1887f;
+$color_brown200: #bcaaa4;
+$color_brown100: #d7ccc8;
+$color_brown050: #efebe9;
+
+// Gray
+$color_gray900: #212121;
+$color_gray800: #424242;
+$color_gray700: #616161;
+$color_gray600: #757575;
+$color_gray500: #9e9e9e;
+$color_gray400: #bdbdbd;
+$color_gray300: #e0e0e0;
+$color_gray200: #eeeeee;
+$color_gray100: #f5f5f5;
+$color_gray050: #fafafa;
+
+// Blue Grey
+$color_bluegray900: #263238;
+$color_bluegray800: #37474f;
+$color_bluegray700: #455a64;
+$color_bluegray600: #546e7a;
+$color_bluegray500: #607d8b;
+$color_bluegray400: #78909c;
+$color_bluegray300: #90a4ae;
+$color_bluegray200: #b0bec5;
+$color_bluegray100: #cfd8dc;
+$color_bluegray050: #eceff1;
+
